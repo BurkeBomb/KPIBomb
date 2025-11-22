@@ -1,9 +1,9 @@
-import "../styles/globals.css";
+import "./globals.css";
 import { ThemeScript } from "@/components/Theme";
 
 export const metadata = {
   title: "ERA KPI Dashboard — Pro",
-  description: "Ops-only KPIs with True PMB and evidence tooling"
+  description: "Ops-only KPIs with True PMB and evidence tooling",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
